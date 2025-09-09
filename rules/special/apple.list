@@ -1,0 +1,4 @@
+ruleset =  Apple,[]DOMAIN-SUFFIX,apple.com
+ruleset =  Apple,[]DOMAIN-SUFFIX,icloud.com
+ruleset =  Apple,[]DOMAIN-SUFFIX,cdn-apple.com
+ruleset =  Apple,[]DOMAIN-SUFFIX,mzstatic.com

@@ -1,0 +1,26 @@
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,googleapis.com
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,googleapis.cn
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,gstatic.com
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,gstatic.cn
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,1e100.net
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,2mdn.net
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,g.co
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,ggpht.com
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,goo.gl
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,gvt0.com
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,gvt1.com
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,gvt2.com
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,gvt3.com
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset = 🔍 Google,[]DOMAIN-SUFFIX,yt.be
+
+; FCM
+ruleset = 🔍 Google,[]DOMAIN,mtalk.google.com
+ruleset = 🔍 Google,[]DOMAIN,alt1-mtalk.google.com
+ruleset = 🔍 Google,[]DOMAIN,alt2-mtalk.google.com
+ruleset = 🔍 Google,[]DOMAIN,alt3-mtalk.google.com
+ruleset = 🔍 Google,[]DOMAIN,alt4-mtalk.google.com
+ruleset = 🔍 Google,[]DOMAIN,alt5-mtalk.google.com
+ruleset = 🔍 Google,[]DOMAIN,alt6-mtalk.google.com
+ruleset = 🔍 Google,[]DOMAIN,alt7-mtalk.google.com
+ruleset = 🔍 Google,[]DOMAIN,alt8-mtalk.google.com

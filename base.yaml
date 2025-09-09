@@ -1,0 +1,53 @@
+port: {{ default(global.clash.http_port, "7890") }}
+socks-port: {{ default(global.clash.socks_port, "7891") }}
+allow-lan: {{ default(global.clash.allow_lan, "true") }}
+mode: rule
+log-level: {{ default(global.clash.log_level, "info") }}
+external-controller: 127.0.0.1:9090
+profile:
+  store-selected: true
+  store-fake-ip: false
+udp: true
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080, 8880]
+  force-domain:
+    - "+.google.com"
+    - "+.gvt1.com"
+    - "+.youtube.com"
+    - "+.ytimg.com"
+    - "+.googlevideo.com"
+    - "+.ggpht.com"
+dns:
+  enable: true 
+  ipv6: false
+  listen: 127.0.0.1:5450
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 94.140.14.14          # Adguard
+    - 45.90.28.123          # NextDNS
+    - 1.1.1.1               # Cloudflare
+    - 8.8.8.8               # Google
+  nameserver:
+    - tls://dns.adguard-dns.com    # Adguard
+    - tls://dns.nextdns.io         # NextDNS
+    - tls://one.one.one.one        # Cloudflare
+    - tls://dns.google             # Google
+  fallback:
+    - https://dns.adguard-dns.com/dns-query    # Adguard
+    - https://dns.nextdns.io                   # NextDNS
+    - https://dns.cloudflare.com/dns-query     # Cloudflare
+    - https://dns.google/dns-query             # Google
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      
+proxies: ~
+proxy-groups: ~
+rules: ~

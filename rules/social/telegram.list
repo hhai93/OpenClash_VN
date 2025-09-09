@@ -1,0 +1,3 @@
+ruleset = 📲 Telegram,[]DOMAIN-SUFFIX,telegram.org
+ruleset = 📲 Telegram,[]DOMAIN-SUFFIX,t.me
+ruleset = 📲 Telegram,[]DOMAIN-KEYWORD,telegram

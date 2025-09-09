@@ -1,0 +1,7 @@
+ruleset = ⚡ Speedtest,[]DOMAIN-SUFFIX,fast.com
+ruleset = ⚡ Speedtest,[]DOMAIN-KEYWORD,speedtest
+ruleset = ⚡ Speedtest,[]DOMAIN-SUFFIX,ooklaserver.net
+ruleset = ⚡ Speedtest,[]DOMAIN,speed.dler.io
+ruleset = ⚡ Speedtest,[]DOMAIN-SUFFIX,speed.cloudflare.com
+ruleset = ⚡ Speedtest,[]DOMAIN-SUFFIX,real-debrid.com
+ruleset = ⚡ Speedtest,[]DOMAIN-SUFFIX,waveform.com

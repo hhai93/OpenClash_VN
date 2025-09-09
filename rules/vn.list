@@ -1,0 +1,3 @@
+ruleset = 🎯 Trực tiếp,[]GEOIP,VN
+ruleset = 🎯 Trực tiếp,[]DOMAIN-SUFFIX,vcmedia.vn
+ruleset = 🎯 Trực tiếp,[]DOMAIN-SUFFIX,baemin.vn

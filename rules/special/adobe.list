@@ -1,0 +1,6 @@
+ruleset = 🛠 Developer,[]DOMAIN-KEYWORD,adobe
+ruleset = 🛠 Developer,[]DOMAIN-SUFFIX,acrobat.com
+ruleset = 🛠 Developer,[]DOMAIN-SUFFIX,creativecloud.com
+ruleset = 🛠 Developer,[]DOMAIN-SUFFIX,adbecrsl.com
+ruleset = 🛠 Developer,[]DOMAIN-SUFFIX,behance.net
+ruleset = 🛠 Developer,[]DOMAIN-SUFFIX,ftcdn.net

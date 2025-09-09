@@ -1,0 +1,27 @@
+ruleset = 🎯 Trực tiếp,[]DOMAIN-SUFFIX,lan
+ruleset = 🎯 Trực tiếp,[]DOMAIN-SUFFIX,local
+ruleset = 🎯 Trực tiếp,[]DOMAIN-SUFFIX,localhost
+ruleset = 🎯 Trực tiếp,[]DOMAIN,router.asus.com
+ruleset = 🎯 Trực tiếp,[]DOMAIN,www.asusrouter.com
+ruleset = 🎯 Trực tiếp,[]DOMAIN,routerlogin.net           # Netgear
+ruleset = 🎯 Trực tiếp,[]DOMAIN,tendawifi.com            # Tenda
+ruleset = 🎯 Trực tiếp,[]DOMAIN,routerlogin.com          # Netgear
+ruleset = 🎯 Trực tiếp,[]DOMAIN,tplinkwifi.net           # TP-Link
+ruleset = 🎯 Trực tiếp,[]DOMAIN,miwifi.com               # Xiaomi
+ruleset = 🎯 Trực tiếp,[]DOMAIN,orbilogin.com            # Netgear Orbi
+ruleset = 🎯 Trực tiếp,[]DOMAIN,unifi.local              # Ubiquiti UniFi
+ruleset = 🎯 Trực tiếp,[]DOMAIN,openwrt.lan              # OpenWrt
+ruleset = 🎯 Trực tiếp,[]DOMAIN,gl-inet.com              # GL.iNet router
+ruleset = 🎯 Trực tiếp,[]DOMAIN-SUFFIX,localdomain       # Generic suffix
+ruleset = 🎯 Trực tiếp,[]IP-CIDR,10.0.0.0/8,no-resolve
+ruleset = 🎯 Trực tiếp,[]IP-CIDR,172.16.0.0/12,no-resolve
+ruleset = 🎯 Trực tiếp,[]IP-CIDR,192.168.0.0/16,no-resolve
+ruleset = 🎯 Trực tiếp,[]IP-CIDR,127.0.0.0/8,no-resolve     # Loopback
+ruleset = 🎯 Trực tiếp,[]IP-CIDR,192.168.100.0/24,no-resolve    # Modem/router nhà mạng
+ruleset = 🎯 Trực tiếp,[]IP-CIDR,192.168.88.0/24,no-resolve     # Mikrotik default
+ruleset = 🎯 Trực tiếp,[]IP-CIDR,192.168.10.0/24,no-resolve     # TP-Link Repeater
+ruleset = 🎯 Trực tiếp,[]IP-CIDR6,::1/128,no-resolve
+ruleset = 🎯 Trực tiếp,[]IP-CIDR6,fc00::/7,no-resolve
+ruleset = 🎯 Trực tiếp,[]IP-CIDR6,fe80::/10,no-resolve
+ruleset = 🎯 Trực tiếp,[]IP-CIDR6,fd00::/8,no-resolve
+

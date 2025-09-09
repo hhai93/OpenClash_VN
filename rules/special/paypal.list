@@ -1,0 +1,3 @@
+ruleset = 🚀 Proxy,[]DOMAIN-KEYWORD,paypal
+ruleset = 🚀 Proxy,[]DOMAIN-SUFFIX,paypal.com
+ruleset = 🚀 Proxy,[]DOMAIN-SUFFIX,paypalobjects.com

@@ -1,0 +1,137 @@
+# YouTube
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,youtube.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,ytimg.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,youtu.be
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,googlevideo.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,youtube-nocookie.com
+ruleset = 📺 Streaming,[]DOMAIN,youtubei.googleapis.com
+
+# Netflix
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,netflix.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,netflix.net
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,nflxvideo.net
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,nflximg.net
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,nflxso.net
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,nflxext.com
+
+# Disney+
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,disneyplus.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,disneystreaming.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,bamgrid.com
+
+# HBO / Max
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,max.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,hbomax.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,hbomaxcdn.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,hbo.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,hbonow.com
+
+# Amazon Prime Video
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,primevideo.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,amazonvideo.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,media-amazon.com
+
+# Hulu
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,hulu.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,huluim.com
+
+# Apple TV+
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,tv.apple.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,video.apple.com
+ruleset = 📺 Streaming,[]DOMAIN,play-edge.itunes.apple.com
+
+# Paramount+
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,paramountplus.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,pplusstatic.com
+
+# Peacock
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,peacocktv.com
+
+# Crunchyroll (VRV)
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,crunchyroll.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,crunchyrollstatic.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,vrv.co
+
+# iQIYI
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,iq.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,iqiyi.com
+
+# WeTV / Tencent Video
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,wetv.vip
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,tencentvideo.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,wetvinfo.com
+
+# Viu
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,viu.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,viu.tv
+
+# Bilibili (quốc tế)
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,bilibili.tv
+
+# TVB / HK platforms
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,tvbanywhere.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,mytvsuper.com
+
+# Rakuten Viki
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,viki.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,rakuten-viki.com
+
+# DAZN
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,dazn.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,dazndn.com
+
+# ESPN
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,espn.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,espncdn.com
+
+# FuboTV
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,fubo.tv
+
+# NOW / Sky
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,nowtv.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,nowtv.it
+
+# BBC iPlayer
+ruleset = 📺 Streaming,[]DOMAIN,iplayer.bbc.co.uk
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,bbci.co.uk
+
+# ITVX
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,itv.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,itvstatic.com
+
+# Channel 4 (All 4 / 4oD)
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,channel4.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,c4assets.com
+
+# Discovery+
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,discoveryplus.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,dplus-media.com
+
+# Hotstar (Disney+ Hotstar)
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,hotstar.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,hs-origins.net
+
+# Tubi
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,tubitv.com
+
+# Pluto TV
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,pluto.tv
+
+# Roku Channel
+ruleset = 📺 Streaming,[]DOMAIN,therokuchannel.roku.com
+
+# Twitch
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,twitch.tv
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,ttvnw.net
+
+# Dailymotion
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,dailymotion.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,dmcdn.net
+
+# Vimeo
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,vimeo.com
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,vimeocdn.com
+
+# Niconico
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,nicovideo.jp
+ruleset = 📺 Streaming,[]DOMAIN-SUFFIX,nimg.jp

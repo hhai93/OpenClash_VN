@@ -1,0 +1,65 @@
+# Cloudflare CDN
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cloudflare.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cdnjs.cloudflare.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cloudflareinsights.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cloudflarestream.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,static.cloudflareinsights.com
+
+# jsDelivr
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,jsdelivr.net
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cdn.jsdelivr.net
+
+# unpkg (npm mirror CDN)
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,unpkg.com
+
+# Google Fonts
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,fonts.googleapis.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,fonts.gstatic.com
+
+# Bootstrap CDN
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,bootstrapcdn.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,netdna.bootstrapcdn.com
+
+# Microsoft CDN (JS, fonts, libraries)
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,ajax.aspnetcdn.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,msecnd.net
+
+# cdnjs by Cloudflare (thêm riêng nếu cần)
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cdnjs.com
+
+# jsdelivr mirrors
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,fastly.jsdelivr.net
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,gcore.jsdelivr.net
+
+# GitHub CDN (dùng khi load raw content)
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,raw.githubusercontent.com
+
+# Cloudinary (image CDN phổ biến)
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cloudinary.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,res.cloudinary.com
+
+# Akamai CDN (phục vụ cho nhiều trang lớn: Apple, Adobe, Steam...)
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,akamai.net
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,akamaized.net
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,edgesuite.net
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,edgekey.net
+
+# Fastly
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,fastly.net
+
+# Cloudfront (Amazon)
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cloudfront.net
+
+# CDN77
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cdn77.org
+
+# StackPath / MaxCDN
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,stackpathdns.com
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,maxcdn.com
+
+# KeyCDN
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,keycdn.com
+
+# jsDelivr mirrors mới (nếu thay đổi theo nhà cung cấp)
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,origin.jsdelivr.net
+ruleset = 💻 CDN,[]DOMAIN-SUFFIX,cdn.jsdelivr.org

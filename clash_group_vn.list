@@ -1,0 +1,62 @@
+; Main
+custom_proxy_group = 🎯 Trực tiếp`select`[]DIRECT
+custom_proxy_group = 🚀 Proxy`select`[]♻️ Tự động`[]🔧 Thủ công`[]DIRECT
+custom_proxy_group = ♻️ Tự động`url-test`(.*)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🔧 Thủ công`select`.*
+
+; Quốc gia
+custom_proxy_group = 🇻🇳 Việt Nam`url-test`(VN|Vietnam|HCM|HAN)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇭🇰 Hong Kong`url-test`(HK|Hong Kong|HKG)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇸🇬 Singapore`url-test`(SG|Singapore|SIN)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇯🇵 Nhật Bản`url-test`(JP|Japan|Tokyo|Osaka)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇰🇷 Hàn Quốc`url-test`(KR|Korea|Seoul|SK)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇹🇼 Đài Loan`url-test`(TW|Taiwan|TPE)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇨🇳 Trung Quốc`url-test`(CN|China|Beijing|Shanghai|Guangzhou)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇺🇸 Hoa Kỳ`url-test`(US|United States|America|LAX|SJC|NYC)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇩🇪 Đức`url-test`(DE|Germany|Frankfurt|Berlin|Munich)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇬🇧 Anh`url-test`(UK|GB|London|Britain|England)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇫🇷 Pháp`url-test`(FR|France|Paris)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇨🇦 Canada`url-test`(CA|Canada|Toronto|Vancouver|Montreal)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇦🇺 Úc`url-test`(AU|Australia|Sydney|Melbourne)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇳🇱 Hà Lan`url-test`(NL|Netherlands|Amsterdam|Rotterdam)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇮🇳 Ấn Độ`url-test`(IN|India|Mumbai|Delhi)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇧🇷 Brazil`url-test`(BR|Brazil|SaoPaulo|SP)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group = 🇿🇦 Nam Phi`url-test`(ZA|SouthAfrica|Johannesburg|CapeTown)`http://www.gstatic.com/generate_204`300,,50
+
+; Social
+custom_proxy_group = 🌐 Mạng xã hội`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 📘 Facebook`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🕊 X-Twitter`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 📲 Telegram`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🎵 TikTok`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 📸 Instagram`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 💬 WhatsApp`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 💬 Zalo`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+
+; AI
+custom_proxy_group = 🤖 AI`select`[]🚀 Proxy`[]🎯 Trực tiếp`[]🔧 Thủ công
+
+; Gaming
+custom_proxy_group = 🎮 Game`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🎮 Steam`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🎮 PSN`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🎮 Nintendo`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🎮 Xbox`select`[]🎮 Game`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+
+; Streaming
+custom_proxy_group = 📺 Streaming quốc tế`select`[]🚀 Proxy`[]🎯 Trực tiếp`[]🔧 Thủ công
+custom_proxy_group = 📺 Streaming nội địa`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+
+; Đặc biệt
+custom_proxy_group = 🏦 Ngân hàng`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🏛 Cơ quan Nhà nước`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🏢 CDN nội địa`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🏢 CDN quốc tế`select`[]🚀 Proxy`[]🎯 Trực tiếp`[]🔧 Thủ công
+custom_proxy_group =  Apple`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🧩 Microsoft`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🔍 Google`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🛠 Developer`select`[]🚀 Proxy`[]🎯 Trực tiếp`[]🔧 Thủ công
+custom_proxy_group = 📚 Học thuật`select`[]🚀 Proxy`[]🎯 Trực tiếp`[]🔧 Thủ công
+custom_proxy_group = ⚡ Speedtest`select`[]🎯 Trực tiếp`[]🚀 Proxy`[]🔧 Thủ công
+custom_proxy_group = 🔞 Adult`select`[]🚀 Proxy`[]🎯 Trực tiếp`[]🔧 Thủ công
+custom_proxy_group = ₿ Crypto`select`[]🚀 Proxy`[]🎯 Trực tiếp`[]🔧 Thủ công

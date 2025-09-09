@@ -1,0 +1,4 @@
+ruleset = 🎮 Xbox,[]DOMAIN-SUFFIX,xbox.com
+ruleset = 🎮 Xbox,[]DOMAIN-SUFFIX,xboxlive.com
+ruleset = 🎮 Xbox,[]DOMAIN-SUFFIX,xboxservices.com
+ruleset = 🎮 Xbox,[]DOMAIN-SUFFIX,gamepass.com

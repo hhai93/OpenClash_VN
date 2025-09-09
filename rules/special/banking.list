@@ -1,0 +1,48 @@
+# Ngân hàng Nhà nước và Cổng thanh toán trung gian
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,napas.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,vnpay.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,smartlink.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,vnptepay.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,payoo.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,onepay.vn
+
+# Ví điện tử
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,momo.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,zalopay.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,shopeepay.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,airpay.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,vnpayqr.vn
+
+# Các ngân hàng thương mại lớn (top)
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,vietcombank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,techcombank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,bidv.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,vietinbank.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,mbbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,tpbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,acb.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,sacombank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,vpbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,shb.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,hdbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,msb.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,ocb.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,seabank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,baca-bank.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,pgbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,baovietbank.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,vietbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,ncb-bank.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,lpbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,namabank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,eximbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,vietcapitalbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,publicbank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,wooribank.com.vn
+ruleset = 🏦 Ngân hàng,[]DOMAIN-SUFFIX,cbbank.vn
+
+# Các site phụ trợ ngân hàng (mobile/web app subdomain)
+ruleset = 🏦 Ngân hàng,[]DOMAIN-KEYWORD,ebanking
+ruleset = 🏦 Ngân hàng,[]DOMAIN-KEYWORD,onlinebanking
+ruleset = 🏦 Ngân hàng,[]DOMAIN-KEYWORD,ibank
+ruleset = 🏦 Ngân hàng,[]DOMAIN-KEYWORD,corebanking
