@@ -1,40 +1,30 @@
-## Cách 1 — Dùng URL của Subconverter (API)
-
-Yêu cầu bạn có dịch vụ **Subconverter** đang chạy (local hoặc server). Mặc định cổng là `25500`.
+## Cách sử dụng
 
 **Link tạo cấu hình Clash (ví dụ):**
 ```
-http://<SUBCONVERTER_HOST>:25500/sub?target=clash&url=<SUBSCRIPTION_URL>&config=<CONFIG_URL>
+http://<SUBCONVERTER_HOST>/sub?target=clash&url=<SUBSCRIPTION_URL>&config=<CONFIG_URL>
 ```
-- `<SUBCONVERTER_HOST>`: link server đang host Subconverter
-- `<SUBSCRIPTION_URL>`: link sub proxy của bạn (**Dạng encode**).
-- `<CONFIG_URL>`: link đến file config *.ini* (**Dạng encode**).
+- `<SUBCONVERTER_HOST>`: link server Subconverter (Ex: *https://sub.ops.ci*)
+- `<SUBSCRIPTION_URL>`: link sub proxy của bạn (Dạng encode, Ex: *https%3A%2F%2Fshadowmere.xyz%2Fapi%2Fb64sub%2F*)
+- `<CONFIG_URL>`: link đến file config *.ini* (Dạng encode, Ex: *https%3A%2F%2Fraw.githubusercontent.com%2Fhhai93%2FOpenClash_VN%2Frefs%2Fheads%2Fmain%2Fclash_template_vn.ini*)
 
-**Ví dụ thực tế (local):**
+Nếu lười bạn có thể dùng luôn git này (Paste vào trình duyệt)
 ```
-http://localhost:25500/sub?target=clash&url=https%3A%2F%2Fexample.com%2Fmy-sub.txt&config=https%3A%2F%2Fraw.githubusercontent.com%2F%3Cuser%3E%2F%3Crepo%3E%2Fmain%2Fmerged_vn_full.ini
+https://sub.ops.ci/sub?target=clash&url=https%3A%2F%2Fshadowmere.xyz%2Fapi%2Fb64sub%2F&config=https%3A%2F%2Fraw.githubusercontent.com%2Fhhai93%2FOpenClash_VN%2Frefs%2Fheads%2Fmain%2Fclash_template_vn.ini
 ```
+Hoặc dùng trên web ui: https://sub.ops.ci
 
-> Kết quả trả về là file YAML Clash. Bạn có thể lưu thành `profile.yaml` và import vào Clash/Clash Meta/OpenClash.
-
----
-
-## Cách 2 — Dùng qua giao diện LUCI OpenClash (OpenWrt)
-
-1. Vào **Services → OpenClash** và bảo đảm **Core** đã được cài.
-2. Chọn tab **Config Subscribe**.
-3. Chọn **Add** > Nhập: **Config Alias - đặt tên**, **Subscribe Address - link sub proxy của bạn** > Tick **Subscribe Convert Online** > **Template name**: Chọn **Custom template** > dán link file *.ini* vào **Custom Template URL**
-4. Chọn **Commit Settings** > **Update Config** để OpenClash tải cấu hình về.
-5. Quay lại tab **Overview** và khởi chạy.
+Kết quả trả về bạn có thể lưu thành `profile.yaml` và import vào Clash/Clash Meta/OpenClash.
 
 ---
 
 ### OpenWrt & dnsmasq
-> Bạn có thể forward từ dnsmasq sang Clash:
+Bạn có thể forward từ dnsmasq sang Clash:
   ```
-  127.0.0.1#5450
+  127.0.0.1#5300
   ```
-> Hoặc có thể xóa block **dns** nếu sử dụng Adguard Home.
+Hoặc có thể xóa block **dns** nếu sử dụng Adguard Home.
+
 ---
 
 ### Tham khảo
