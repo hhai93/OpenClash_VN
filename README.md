@@ -1,6 +1,6 @@
 ## Cách sử dụng
 
-**Link tạo cấu hình Clash (ví dụ):**
+**Link tạo cấu hình OpenClash (ví dụ):**
 ```
 http://<SUBCONVERTER_HOST>/sub?target=clash&url=<SUBSCRIPTION_URL>&config=<CONFIG_URL>
 ```
@@ -19,7 +19,7 @@ Kết quả trả về bạn có thể lưu thành `profile.yaml` và import và
 ---
 
 ### OpenWrt & dnsmasq
-Bạn có thể forward từ dnsmasq sang Clash:
+Bạn có thể forward từ dnsmasq sang OpenClash:
   ```
   127.0.0.1#5300
   ```
