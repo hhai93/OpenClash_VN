@@ -26,7 +26,7 @@ sniffer:
 dns:
   enable: true 
   ipv6: false
-  listen: 127.0.0.1:5450
+  listen: 127.0.0.1:5300
   enhanced-mode: redir-host
   default-nameserver:
     - 94.140.14.14          # Adguard
