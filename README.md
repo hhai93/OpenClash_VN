@@ -3,8 +3,8 @@
 OpenClash configuration optimized for users in Vietnam
 
   - 🇻🇳 Vietnamese sites → **Direct**
-  - 🌍 International traffic → **Proxy**
-  - 🎯 Key services (e.g. Google, Microsoft...) → **Selective routing, prefer Direct**
+  - 🌍 International sites → **Proxy**
+  - 🎯 Popular services (e.g. Google, Microsoft...) → **Selective routing, prefer Direct**
 
 ---
 
