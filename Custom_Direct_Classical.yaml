@@ -1,5 +1,6 @@
 payload:
 - DOMAIN-SUFFIX,vn
+- DOMAIN-SUFFIX,goatembed.com
 - DOMAIN-keyword,phim
 - IP-CIDR,1.52.0.0/17
 - IP-CIDR,1.52.128.0/18
