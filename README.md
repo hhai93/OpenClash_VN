@@ -15,7 +15,7 @@ http://<SUBCONVERTER_HOST>/sub?target=clash&url=<SUBSCRIPTION_URL>&config=<CONFI
 ```
 
 - `<SUBCONVERTER_HOST>`: Your subconverter server (e.g., `https://sub.ops.ci`)
-- `<SUBSCRIPTION_URL>`: Your proxy subscription link (e.g., `https://shadowmere.xyz/api/b64sub/`)
+- `<SUBSCRIPTION_URL>`: Your proxy subscription link (e.g., `https://shadowmere.xyz/api/b64sub`)
 - `<CONFIG_URL>`: Link to `Clash_Template_VN.ini` file
 
 **Or just use this prebuilt link (copy & paste into browser):**
