@@ -1,8 +1,12 @@
 payload:
 - DOMAIN-SUFFIX,vn
+#Rophim
 - DOMAIN-SUFFIX,goatembed.com
-- DOMAIN-SUFFIX,seemymeat.net
-- DOMAIN-keyword,phim
+- DOMAIN-SUFFIX,rophimapi.net
+- DOMAIN-SUFFIX,rofilm.net
+- DOMAIN-SUFFIX,rophim.me
+- DOMAIN-SUFFIX,nutscdn.com
+#Vietnam CIDR
 - IP-CIDR,1.52.0.0/17
 - IP-CIDR,1.52.128.0/18
 - IP-CIDR,1.52.192.0/19
