@@ -104,7 +104,7 @@ config openclash 'config'
 	option custom_fakeip_filter_mode 'blacklist'
 	option config_update_interval '720'
 	option smart_enable_lgbm '0'
-	list dnsmasq_server '127.0.0.1#5353'
+	list dnsmasq_server '127.0.0.1#53'
 	option dnsmasq_cachesize '0'
 
 config dns_servers
