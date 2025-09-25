@@ -156,8 +156,6 @@ config config_overwrite
 	option order '0'
 	option enable '0'
 
-config dns_servers
-
 config config_subscribe
 	option enabled '1'
 	option name 'openclash_vn.'
