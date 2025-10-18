@@ -24,7 +24,7 @@ https://sub.ops.ci/sub?target=clash&url=https%3A%2F%2Fshadowmere.xyz%2Fapi%2Fb64
 ```
 
 **Optional GUI Tool:** https://sub.ops.ci  
-The result can be saved as `*.yaml` and imported into **OpenClash**.
+The result can be saved as `*.yaml` and imported into **OpenClash** / **Shadowrocket**....
 
 ---
 
